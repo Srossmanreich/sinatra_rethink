@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Awww!</h1>
+
+  <% @aww.each do |cute| %>
+  	<p><%= cute["title"] %></p>
+  	<img src=<%="#{cute['thumbnail']}"%>>
+  <%end%>
+ 
+</div>

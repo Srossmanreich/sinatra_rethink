@@ -1,1 +1,1 @@
-# sinatra_rethink
+# Sinatra with RethinkDB
